@@ -1,0 +1,20 @@
+.visit-plus{
+    background-color: rgb(68, 62, 62);
+    color: white;
+    cursor: pointer;
+    font-family: 'Barlow', sans-serif !important;
+}
+.visit-plus-child{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Barlow', sans-serif !important;
+}
+.logo{
+    font-family: 'Barlow', sans-serif;
+}
+
+.logo:hover{
+    color: rgb(34, 34, 189);
+}
