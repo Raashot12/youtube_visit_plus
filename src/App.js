@@ -7,6 +7,7 @@ import "./components/VideoItems.css"
 import Navbar from './components/Navbar'
 import { Container } from '@material-ui/core'
 import Footer from './components/Footer'
+import { Height } from '@material-ui/icons'
 export default class App extends Component {
     state = { videos: [], selectedVideo: null }
 
@@ -31,7 +32,7 @@ export default class App extends Component {
     }
     render() {
         return (
-            <div>
+            <div style={ { position: "relative", minHeight: "100vh" } }>
                 <Navbar />
                 <Container>
                     <SearchBar onTermSubmit={ this.onTermSubmit } />
@@ -45,7 +46,7 @@ export default class App extends Component {
                     </div>
 
                 </Container>
-                <Footer />
+                {/* <Footer /> */ }
             </div>
         )
     }
