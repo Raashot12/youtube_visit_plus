@@ -18,3 +18,20 @@
 .logo:hover{
     color: rgb(34, 34, 189);
 }
+
+.footer{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Barlow', sans-serif !important;
+    margin-top: 1rem;
+    background-color: rgb(68, 62, 62);
+    color: white;
+}
+
+@media (max-width: 900px) {
+    .footer h3{
+        font-size: 12px;
+    }
+}

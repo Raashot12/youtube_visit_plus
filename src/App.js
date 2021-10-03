@@ -6,6 +6,7 @@ import VideoDetails from './components/VideoDetails'
 import "./components/VideoItems.css"
 import Navbar from './components/Navbar'
 import { Container } from '@material-ui/core'
+import Footer from './components/Footer'
 export default class App extends Component {
     state = { videos: [], selectedVideo: null }
 
@@ -42,7 +43,9 @@ export default class App extends Component {
                             <VideoList videos={ this.state.videos } onVideoSelect={ this.onVideoSelect } />
                         </div>
                     </div>
+
                 </Container>
+                <Footer />
             </div>
         )
     }

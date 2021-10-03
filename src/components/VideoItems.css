@@ -23,6 +23,7 @@
 @media (max-width:900px){
     .item-one{
     width: 100%;
+    margin-bottom: 2rem;
     }
     .item-two{
         width: 100%;
